@@ -1,6 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
 function FavoritesEmpty(): JSX.Element {
   return (
     <div className="page page--favorites-empty">
+      <Helmet>
+        <title>6 городов</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
