@@ -1,6 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
 function Offer(): JSX.Element {
   return (
     <div className="page">
+      <Helmet>
+        <title>Предложение</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
